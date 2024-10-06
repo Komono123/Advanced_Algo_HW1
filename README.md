@@ -22,8 +22,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 ```
-5. Add ssh key to your github
-# Settings > SSH and GPG keys > New SSH key
+5. Add ssh key to your github, Settings > SSH and GPG keys > New SSH key
 ```bash
 ssh -T git@github.com
 ```
